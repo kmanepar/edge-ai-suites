@@ -1,4 +1,9 @@
-# Isaac ROS Apriltag Benchmark - Intel Port
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Isaac ROS® Apriltag Benchmark - Intel Port
 
 This folder contains a self-contained setup for running the Apriltag benchmark on Intel systems, following the same structure as the other benchmark intel_port folders.
 

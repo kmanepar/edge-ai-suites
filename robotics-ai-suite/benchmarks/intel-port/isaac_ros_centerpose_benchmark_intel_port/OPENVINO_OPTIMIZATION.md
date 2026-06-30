@@ -1,3 +1,8 @@
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # OpenVINO Optimization Notes for CenterPose (Intel Port)
 
 This benchmark script now supports OpenVINO tuning through environment variables.

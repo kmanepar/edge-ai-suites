@@ -1,4 +1,9 @@
-# Isaac ROS SegFormer Benchmark - Intel Port
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Isaac ROS® SegFormer Benchmark - Intel Port
 
 This folder contains a complete, self-contained setup for running the SegFormer semantic segmentation benchmark on Intel CPU/iGPU systems using OpenVINO.
 
@@ -58,6 +63,6 @@ The plugin is a minimal scaffold that publishes segmentation output (`sensor_msg
 
 ## Dataset
 
-Downloaded automatically from NVIDIA NGC:
+Downloaded automatically from NVIDIA® NGC:
 - https://api.ngc.nvidia.com/v2/resources/nvidia/isaac/r2bdataset2023/versions/2/files/r2b_storage/
 - Total size: ~2.9 GB

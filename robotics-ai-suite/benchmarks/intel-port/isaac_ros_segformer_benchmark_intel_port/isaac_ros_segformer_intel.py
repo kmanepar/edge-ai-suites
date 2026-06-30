@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) 2025 Intel Corporation
+# Copyright (C) 2026 Intel Corporation
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -87,7 +87,7 @@ def generate_test_description():
 
 class TestSegformerIntel(ROS2BenchmarkTest):
     config = ROS2BenchmarkConfig(
-        benchmark_name='Isaac ROS Segformer Benchmark (Intel OpenVINO)',
+        benchmark_name='Isaac ROS® Segformer Benchmark (Intel OpenVINO)',
         input_data_path=ROSBAG_PATH, input_data_start_time=0.0, input_data_end_time=4.0,
         publisher_upper_frequency=R2B_PUBLISHER_UPPER_FPS,
         publisher_lower_frequency=R2B_PUBLISHER_LOWER_FPS,

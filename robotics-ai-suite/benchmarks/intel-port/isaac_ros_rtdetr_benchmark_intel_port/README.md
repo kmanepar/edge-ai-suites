@@ -1,4 +1,9 @@
-# Isaac ROS RT-DETR Benchmark - Intel Port
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Isaac ROS® RT-DETR Benchmark - Intel Port
 
 This folder contains a complete, self-contained setup for running the RT-DETR (Real-Time DETR) object detection benchmark on Intel CPU/iGPU systems using OpenVINO.
 
@@ -56,6 +61,6 @@ This plugin is a minimal scaffold for benchmarking throughput and latency. It pu
 
 ## Dataset
 
-Automatically downloaded from NVIDIA NGC:
+Automatically downloaded from NVIDIA® NGC:
 - Source: https://api.ngc.nvidia.com/v2/resources/nvidia/isaac/r2bdataset2023/versions/2/files/r2b_storage/
 - Size: ~2.9 GB

@@ -1,4 +1,9 @@
-# Isaac ROS DetectNet Benchmark - Intel Port
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Isaac ROS® DetectNet Benchmark - Intel Port
 
 This folder contains a complete, self-contained setup for running the DetectNet (PeopleNet) benchmark on Intel CPU/iGPU systems using OpenVINO.
 
@@ -22,10 +27,10 @@ cd /path/to/this/folder
 This script:
 1. Installs system dependencies (apt packages)
 2. Installs Python runtime libraries (OpenVINO, NumPy, OpenCV)
-3. Fetches NVIDIA source repositories (isaac_ros_benchmark, ros2_benchmark)
+3. Fetches NVIDIA® source repositories (isaac_ros_benchmark, ros2_benchmark)
 4. Installs the Intel DetectNet plugin scaffold
-5. Patches CMake to make NVIDIA-specific dependencies optional
-6. Downloads r2b_dataset from NVIDIA NGC
+5. Patches CMake to make NVIDIA®-specific dependencies optional
+6. Downloads r2b_dataset from NVIDIA® NGC
 7. Builds all packages with colcon
 8. Prints the exact command to run the benchmark
 
@@ -68,14 +73,14 @@ The scaffolded plugin included here makes the benchmark pipeline runnable and me
 
 ## Dataset Source
 
-The r2b_dataset is downloaded from NVIDIA NGC:
+The r2b_dataset is downloaded from NVIDIA® NGC:
 - Metadata: https://api.ngc.nvidia.com/v2/resources/nvidia/isaac/r2bdataset2023/versions/2/files/r2b_storage/metadata.yaml
 - Data file (2.9GB): https://api.ngc.nvidia.com/v2/resources/nvidia/isaac/r2bdataset2023/versions/2/files/r2b_storage/r2b_storage_0.db3
 
 ## Troubleshooting
 
 **Build fails with "isaac_ros_common not found"**  
-This is expected and handled by the CMake patches. The build continues without the NVIDIA-only dependency.
+This is expected and handled by the CMake patches. The build continues without the NVIDIA®-only dependency.
 
 **Benchmark script not found**  
 Ensure `colcon build` completed successfully and you sourced `install/setup.bash`.

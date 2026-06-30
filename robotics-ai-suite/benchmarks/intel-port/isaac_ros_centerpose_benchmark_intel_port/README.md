@@ -1,6 +1,11 @@
-# Isaac ROS CenterPose Benchmark - Intel Port
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
 
-This folder now includes a complete Intel-friendly setup path that works on a clean machine without requiring an NVIDIA GPU.
+# Isaac ROS® CenterPose Benchmark - Intel Port
+
+This folder now includes a complete Intel-friendly setup path that works on a clean machine without requiring an NVIDIA® GPU.
 
 Complete runnable paths with setup scripts in this repository:
 - isaac_ros_centerpose_benchmark_intel_port/README.md

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-# Copyright (C) 2025 Intel Corporation
+# Copyright (C) 2026 Intel Corporation
 #
 # SPDX-License-Identifier: Apache-2.0
 
 """
 Performance test for CenterPose Pose Estimation on Intel CPU/iGPU.
 
-Uses OpenVINO Runtime for inference instead of NVIDIA TensorRT/Triton.
+Uses OpenVINO Runtime for inference instead of NVIDIA® TensorRT/Triton.
 The pipeline:
   DataLoaderNode → PrepResizeNode → PlaybackNode →
   CenterPoseOpenVINONode (encode+infer+decode) → MonitorNode

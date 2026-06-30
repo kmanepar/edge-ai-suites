@@ -1,6 +1,11 @@
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # Run Competitive Benchmarks (Intel Port)
 
-This repository contains Intel-focused benchmark ports for multiple ISAAC ROS pipelines.
+This repository contains Intel-focused benchmark ports for multiple ISAAC ROS® pipelines.
 Each benchmark is organized in its own folder with self-contained scripts and setup notes.
 
 ## Included Benchmarks

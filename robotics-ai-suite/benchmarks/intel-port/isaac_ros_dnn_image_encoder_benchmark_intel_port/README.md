@@ -1,4 +1,9 @@
-# Isaac ROS DNN Image Encoder Benchmark - Intel Port
+<!--
+Copyright (C) 2026 Intel Corporation
+SPDX-License-Identifier: Apache-2.0
+-->
+
+# Isaac ROS® DNN Image Encoder Benchmark - Intel Port
 
 This folder contains a standalone Intel benchmark script:
 - `isaac_ros_dnn_image_encoder_intel.py`

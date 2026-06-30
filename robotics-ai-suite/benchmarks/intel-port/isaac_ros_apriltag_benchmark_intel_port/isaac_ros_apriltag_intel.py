@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) 2025 Intel Corporation
+# Copyright (C) 2026 Intel Corporation
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -143,7 +143,7 @@ class TestAprilTagNodeIntel(ROS2BenchmarkTest):
     """Performance test for apriltag_ros AprilTagNode on Intel."""
 
     config = ROS2BenchmarkConfig(
-        benchmark_name='Isaac ROS AprilTag Benchmark (Intel)',
+        benchmark_name='Isaac ROS® AprilTag Benchmark (Intel)',
         input_data_path=ROSBAG_PATH,
         input_data_start_time=3.0,
         input_data_end_time=3.5,

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-# Copyright (C) 2025 Intel Corporation
+# Copyright (C) 2026 Intel Corporation
 #
 # SPDX-License-Identifier: Apache-2.0
 
 """
 Performance test for DetectNet (PeopleNet) on Intel CPU/iGPU.
 
-Uses OpenVINO Runtime for inference instead of NVIDIA TensorRT/Triton.
+Uses OpenVINO Runtime for inference instead of NVIDIA® TensorRT/Triton.
 The pipeline:
   DataLoaderNode → PrepResizeNode → PlaybackNode →
   DetectNetOpenVINONode (encode+infer+decode) → MonitorNode
@@ -183,7 +183,7 @@ class TestDetectNetIntel(ROS2BenchmarkTest):
     """Performance test for DetectNet on Intel CPU/iGPU."""
 
     config = ROS2BenchmarkConfig(
-        benchmark_name='Isaac ROS DetectNet Benchmark (Intel CPU/iGPU via OpenVINO Runtime)',
+        benchmark_name='Isaac ROS® DetectNet Benchmark (Intel CPU/iGPU via OpenVINO Runtime)',
         input_data_path=ROSBAG_PATH,
         input_data_start_time=0.0,
         input_data_end_time=4.0,

@@ -1,4 +1,4 @@
-// Copyright (C) 2025 Intel Corporation
+// Copyright (C) 2026 Intel Corporation
 //
 // SPDX-License-Identifier: Apache-2.0
 #ifndef ISAAC_ROS_BENCHMARK__RTDETR_OPENVINO_NODE_HPP_
